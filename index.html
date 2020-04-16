@@ -8,7 +8,27 @@
     </title>
   </head>
   <body>
+      <h1>Search Youtube with the YT API</h1>
 
+      <form>
+        <input type="text" id="searchTerm">
+        <button id="searchButton" type="submit">
+          Search
+        </button>
+      </form>
+
+      <div id="resultsSection">
+        <div id="results"></div>
+
+        <div>
+          <button id="previousButton" type="button">
+            Previous
+          </button>
+          <button id="nextButton" type="button">
+            Next
+          </button>
+        </div>
+      </div>
     <script src="js/index.js"></script>
   </body>
 </html>
